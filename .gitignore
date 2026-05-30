@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+models/best_model.pth
+temp/
+*.pth
+streamlit/
+venv/
+.env
+*.pt
+*.ckpt
+**/yolov8n.pt

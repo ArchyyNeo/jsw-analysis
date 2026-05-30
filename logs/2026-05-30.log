@@ -1,0 +1,306 @@
+2026-05-30 18:58:52,920 | ERROR | Ошибка отображения исходного изображения: cannot write mode I;16 as JPEG
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\jsw_web_app\jsw-analysis-web\venv\Lib\site-packages\PIL\JpegImagePlugin.py", line 665, in _save
+    rawmode = RAWMODE[im.mode]
+              ~~~~~~~^^^^^^^^^
+KeyError: 'I;16'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\jsw_web_app\jsw-analysis-web\main.py", line 137, in <module>
+    st.image(uploaded_file, use_container_width=True)
+  File "C:\Users\User\Documents\jsw_web_app\jsw-analysis-web\venv\Lib\site-packages\streamlit\runtime\metrics_util.py", line 698, in wrapped_func
+    result = non_optional_func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\jsw_web_app\jsw-analysis-web\venv\Lib\site-packages\streamlit\elements\image.py", line 217, in image
+    marshall_images(
+  File "C:\Users\User\Documents\jsw_web_app\jsw-analysis-web\venv\Lib\site-packages\streamlit\elements\lib\image_utils.py", line 443, in marshall_images
+    proto_img.url = image_to_url(
+                    ^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\jsw_web_app\jsw-analysis-web\venv\Lib\site-packages\streamlit\elements\lib\image_utils.py", line 338, in image_to_url
+    image_data = _ensure_image_size_and_format(image_data, layout_config, image_format)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\jsw_web_app\jsw-analysis-web\venv\Lib\site-packages\streamlit\elements\lib\image_utils.py", line 208, in _ensure_image_size_and_format
+    return _pil_to_bytes(pil_image, format=image_format, quality=90)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\jsw_web_app\jsw-analysis-web\venv\Lib\site-packages\streamlit\elements\lib\image_utils.py", line 136, in _pil_to_bytes
+    image.save(tmp, format=format, quality=quality)
+  File "C:\Users\User\Documents\jsw_web_app\jsw-analysis-web\venv\Lib\site-packages\PIL\Image.py", line 2713, in save
+    save_handler(self, fp, filename)
+  File "C:\Users\User\Documents\jsw_web_app\jsw-analysis-web\venv\Lib\site-packages\PIL\JpegImagePlugin.py", line 668, in _save
+    raise OSError(msg) from e
+OSError: cannot write mode I;16 as JPEG
+
+2026-05-30 18:58:56,370 | ERROR | Ошибка отображения исходного изображения: cannot write mode I;16 as JPEG
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\jsw_web_app\jsw-analysis-web\venv\Lib\site-packages\PIL\JpegImagePlugin.py", line 665, in _save
+    rawmode = RAWMODE[im.mode]
+              ~~~~~~~^^^^^^^^^
+KeyError: 'I;16'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\jsw_web_app\jsw-analysis-web\main.py", line 137, in <module>
+    st.image(uploaded_file, use_container_width=True)
+  File "C:\Users\User\Documents\jsw_web_app\jsw-analysis-web\venv\Lib\site-packages\streamlit\runtime\metrics_util.py", line 698, in wrapped_func
+    result = non_optional_func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\jsw_web_app\jsw-analysis-web\venv\Lib\site-packages\streamlit\elements\image.py", line 217, in image
+    marshall_images(
+  File "C:\Users\User\Documents\jsw_web_app\jsw-analysis-web\venv\Lib\site-packages\streamlit\elements\lib\image_utils.py", line 443, in marshall_images
+    proto_img.url = image_to_url(
+                    ^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\jsw_web_app\jsw-analysis-web\venv\Lib\site-packages\streamlit\elements\lib\image_utils.py", line 338, in image_to_url
+    image_data = _ensure_image_size_and_format(image_data, layout_config, image_format)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\jsw_web_app\jsw-analysis-web\venv\Lib\site-packages\streamlit\elements\lib\image_utils.py", line 208, in _ensure_image_size_and_format
+    return _pil_to_bytes(pil_image, format=image_format, quality=90)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\jsw_web_app\jsw-analysis-web\venv\Lib\site-packages\streamlit\elements\lib\image_utils.py", line 136, in _pil_to_bytes
+    image.save(tmp, format=format, quality=quality)
+  File "C:\Users\User\Documents\jsw_web_app\jsw-analysis-web\venv\Lib\site-packages\PIL\Image.py", line 2713, in save
+    save_handler(self, fp, filename)
+  File "C:\Users\User\Documents\jsw_web_app\jsw-analysis-web\venv\Lib\site-packages\PIL\JpegImagePlugin.py", line 668, in _save
+    raise OSError(msg) from e
+OSError: cannot write mode I;16 as JPEG
+
+2026-05-30 19:00:36,353 | ERROR | Ошибка отображения исходного изображения: cannot write mode I;16 as JPEG
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\jsw_web_app\jsw-analysis-web\venv\Lib\site-packages\PIL\JpegImagePlugin.py", line 665, in _save
+    rawmode = RAWMODE[im.mode]
+              ~~~~~~~^^^^^^^^^
+KeyError: 'I;16'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\jsw_web_app\jsw-analysis-web\main.py", line 137, in <module>
+    st.image(uploaded_file, use_container_width=True)
+  File "C:\Users\User\Documents\jsw_web_app\jsw-analysis-web\venv\Lib\site-packages\streamlit\runtime\metrics_util.py", line 698, in wrapped_func
+    result = non_optional_func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\jsw_web_app\jsw-analysis-web\venv\Lib\site-packages\streamlit\elements\image.py", line 217, in image
+    marshall_images(
+  File "C:\Users\User\Documents\jsw_web_app\jsw-analysis-web\venv\Lib\site-packages\streamlit\elements\lib\image_utils.py", line 443, in marshall_images
+    proto_img.url = image_to_url(
+                    ^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\jsw_web_app\jsw-analysis-web\venv\Lib\site-packages\streamlit\elements\lib\image_utils.py", line 338, in image_to_url
+    image_data = _ensure_image_size_and_format(image_data, layout_config, image_format)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\jsw_web_app\jsw-analysis-web\venv\Lib\site-packages\streamlit\elements\lib\image_utils.py", line 208, in _ensure_image_size_and_format
+    return _pil_to_bytes(pil_image, format=image_format, quality=90)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\jsw_web_app\jsw-analysis-web\venv\Lib\site-packages\streamlit\elements\lib\image_utils.py", line 136, in _pil_to_bytes
+    image.save(tmp, format=format, quality=quality)
+  File "C:\Users\User\Documents\jsw_web_app\jsw-analysis-web\venv\Lib\site-packages\PIL\Image.py", line 2713, in save
+    save_handler(self, fp, filename)
+  File "C:\Users\User\Documents\jsw_web_app\jsw-analysis-web\venv\Lib\site-packages\PIL\JpegImagePlugin.py", line 668, in _save
+    raise OSError(msg) from e
+OSError: cannot write mode I;16 as JPEG
+
+2026-05-30 19:00:39,856 | ERROR | Ошибка отображения исходного изображения: cannot write mode I;16 as JPEG
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\jsw_web_app\jsw-analysis-web\venv\Lib\site-packages\PIL\JpegImagePlugin.py", line 665, in _save
+    rawmode = RAWMODE[im.mode]
+              ~~~~~~~^^^^^^^^^
+KeyError: 'I;16'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\jsw_web_app\jsw-analysis-web\main.py", line 137, in <module>
+    st.image(uploaded_file, use_container_width=True)
+  File "C:\Users\User\Documents\jsw_web_app\jsw-analysis-web\venv\Lib\site-packages\streamlit\runtime\metrics_util.py", line 698, in wrapped_func
+    result = non_optional_func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\jsw_web_app\jsw-analysis-web\venv\Lib\site-packages\streamlit\elements\image.py", line 217, in image
+    marshall_images(
+  File "C:\Users\User\Documents\jsw_web_app\jsw-analysis-web\venv\Lib\site-packages\streamlit\elements\lib\image_utils.py", line 443, in marshall_images
+    proto_img.url = image_to_url(
+                    ^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\jsw_web_app\jsw-analysis-web\venv\Lib\site-packages\streamlit\elements\lib\image_utils.py", line 338, in image_to_url
+    image_data = _ensure_image_size_and_format(image_data, layout_config, image_format)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\jsw_web_app\jsw-analysis-web\venv\Lib\site-packages\streamlit\elements\lib\image_utils.py", line 208, in _ensure_image_size_and_format
+    return _pil_to_bytes(pil_image, format=image_format, quality=90)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\jsw_web_app\jsw-analysis-web\venv\Lib\site-packages\streamlit\elements\lib\image_utils.py", line 136, in _pil_to_bytes
+    image.save(tmp, format=format, quality=quality)
+  File "C:\Users\User\Documents\jsw_web_app\jsw-analysis-web\venv\Lib\site-packages\PIL\Image.py", line 2713, in save
+    save_handler(self, fp, filename)
+  File "C:\Users\User\Documents\jsw_web_app\jsw-analysis-web\venv\Lib\site-packages\PIL\JpegImagePlugin.py", line 668, in _save
+    raise OSError(msg) from e
+OSError: cannot write mode I;16 as JPEG
+
+2026-05-30 19:02:16,082 | ERROR | Ошибка отображения исходного изображения: cannot write mode I;16 as JPEG
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\jsw_web_app\jsw-analysis-web\venv\Lib\site-packages\PIL\JpegImagePlugin.py", line 665, in _save
+    rawmode = RAWMODE[im.mode]
+              ~~~~~~~^^^^^^^^^
+KeyError: 'I;16'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\jsw_web_app\jsw-analysis-web\main.py", line 140, in <module>
+    st.image(uploaded_file, use_container_width=True)
+  File "C:\Users\User\Documents\jsw_web_app\jsw-analysis-web\venv\Lib\site-packages\streamlit\runtime\metrics_util.py", line 698, in wrapped_func
+    result = non_optional_func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\jsw_web_app\jsw-analysis-web\venv\Lib\site-packages\streamlit\elements\image.py", line 217, in image
+    marshall_images(
+  File "C:\Users\User\Documents\jsw_web_app\jsw-analysis-web\venv\Lib\site-packages\streamlit\elements\lib\image_utils.py", line 443, in marshall_images
+    proto_img.url = image_to_url(
+                    ^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\jsw_web_app\jsw-analysis-web\venv\Lib\site-packages\streamlit\elements\lib\image_utils.py", line 338, in image_to_url
+    image_data = _ensure_image_size_and_format(image_data, layout_config, image_format)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\jsw_web_app\jsw-analysis-web\venv\Lib\site-packages\streamlit\elements\lib\image_utils.py", line 208, in _ensure_image_size_and_format
+    return _pil_to_bytes(pil_image, format=image_format, quality=90)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\jsw_web_app\jsw-analysis-web\venv\Lib\site-packages\streamlit\elements\lib\image_utils.py", line 136, in _pil_to_bytes
+    image.save(tmp, format=format, quality=quality)
+  File "C:\Users\User\Documents\jsw_web_app\jsw-analysis-web\venv\Lib\site-packages\PIL\Image.py", line 2713, in save
+    save_handler(self, fp, filename)
+  File "C:\Users\User\Documents\jsw_web_app\jsw-analysis-web\venv\Lib\site-packages\PIL\JpegImagePlugin.py", line 668, in _save
+    raise OSError(msg) from e
+OSError: cannot write mode I;16 as JPEG
+
+2026-05-30 19:02:18,006 | ERROR | Ошибка отображения исходного изображения: cannot write mode I;16 as JPEG
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\jsw_web_app\jsw-analysis-web\venv\Lib\site-packages\PIL\JpegImagePlugin.py", line 665, in _save
+    rawmode = RAWMODE[im.mode]
+              ~~~~~~~^^^^^^^^^
+KeyError: 'I;16'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\jsw_web_app\jsw-analysis-web\main.py", line 140, in <module>
+    st.image(uploaded_file, use_container_width=True)
+  File "C:\Users\User\Documents\jsw_web_app\jsw-analysis-web\venv\Lib\site-packages\streamlit\runtime\metrics_util.py", line 698, in wrapped_func
+    result = non_optional_func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\jsw_web_app\jsw-analysis-web\venv\Lib\site-packages\streamlit\elements\image.py", line 217, in image
+    marshall_images(
+  File "C:\Users\User\Documents\jsw_web_app\jsw-analysis-web\venv\Lib\site-packages\streamlit\elements\lib\image_utils.py", line 443, in marshall_images
+    proto_img.url = image_to_url(
+                    ^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\jsw_web_app\jsw-analysis-web\venv\Lib\site-packages\streamlit\elements\lib\image_utils.py", line 338, in image_to_url
+    image_data = _ensure_image_size_and_format(image_data, layout_config, image_format)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\jsw_web_app\jsw-analysis-web\venv\Lib\site-packages\streamlit\elements\lib\image_utils.py", line 208, in _ensure_image_size_and_format
+    return _pil_to_bytes(pil_image, format=image_format, quality=90)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\jsw_web_app\jsw-analysis-web\venv\Lib\site-packages\streamlit\elements\lib\image_utils.py", line 136, in _pil_to_bytes
+    image.save(tmp, format=format, quality=quality)
+  File "C:\Users\User\Documents\jsw_web_app\jsw-analysis-web\venv\Lib\site-packages\PIL\Image.py", line 2713, in save
+    save_handler(self, fp, filename)
+  File "C:\Users\User\Documents\jsw_web_app\jsw-analysis-web\venv\Lib\site-packages\PIL\JpegImagePlugin.py", line 668, in _save
+    raise OSError(msg) from e
+OSError: cannot write mode I;16 as JPEG
+
+2026-05-30 19:06:28,129 | ERROR | Ошибка отображения исходного изображения: cannot write mode I;16 as JPEG
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\jsw_web_app\jsw-analysis-web\venv\Lib\site-packages\PIL\JpegImagePlugin.py", line 665, in _save
+    rawmode = RAWMODE[im.mode]
+              ~~~~~~~^^^^^^^^^
+KeyError: 'I;16'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\jsw_web_app\jsw-analysis-web\main.py", line 144, in <module>
+    st.image(current_file, use_container_width=True)
+  File "C:\Users\User\Documents\jsw_web_app\jsw-analysis-web\venv\Lib\site-packages\streamlit\runtime\metrics_util.py", line 698, in wrapped_func
+    result = non_optional_func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\jsw_web_app\jsw-analysis-web\venv\Lib\site-packages\streamlit\elements\image.py", line 217, in image
+    marshall_images(
+  File "C:\Users\User\Documents\jsw_web_app\jsw-analysis-web\venv\Lib\site-packages\streamlit\elements\lib\image_utils.py", line 443, in marshall_images
+    proto_img.url = image_to_url(
+                    ^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\jsw_web_app\jsw-analysis-web\venv\Lib\site-packages\streamlit\elements\lib\image_utils.py", line 338, in image_to_url
+    image_data = _ensure_image_size_and_format(image_data, layout_config, image_format)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\jsw_web_app\jsw-analysis-web\venv\Lib\site-packages\streamlit\elements\lib\image_utils.py", line 208, in _ensure_image_size_and_format
+    return _pil_to_bytes(pil_image, format=image_format, quality=90)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\jsw_web_app\jsw-analysis-web\venv\Lib\site-packages\streamlit\elements\lib\image_utils.py", line 136, in _pil_to_bytes
+    image.save(tmp, format=format, quality=quality)
+  File "C:\Users\User\Documents\jsw_web_app\jsw-analysis-web\venv\Lib\site-packages\PIL\Image.py", line 2713, in save
+    save_handler(self, fp, filename)
+  File "C:\Users\User\Documents\jsw_web_app\jsw-analysis-web\venv\Lib\site-packages\PIL\JpegImagePlugin.py", line 668, in _save
+    raise OSError(msg) from e
+OSError: cannot write mode I;16 as JPEG
+
+2026-05-30 19:06:31,602 | ERROR | Ошибка отображения исходного изображения: cannot write mode I;16 as JPEG
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\jsw_web_app\jsw-analysis-web\venv\Lib\site-packages\PIL\JpegImagePlugin.py", line 665, in _save
+    rawmode = RAWMODE[im.mode]
+              ~~~~~~~^^^^^^^^^
+KeyError: 'I;16'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\jsw_web_app\jsw-analysis-web\main.py", line 144, in <module>
+    st.image(current_file, use_container_width=True)
+  File "C:\Users\User\Documents\jsw_web_app\jsw-analysis-web\venv\Lib\site-packages\streamlit\runtime\metrics_util.py", line 698, in wrapped_func
+    result = non_optional_func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\jsw_web_app\jsw-analysis-web\venv\Lib\site-packages\streamlit\elements\image.py", line 217, in image
+    marshall_images(
+  File "C:\Users\User\Documents\jsw_web_app\jsw-analysis-web\venv\Lib\site-packages\streamlit\elements\lib\image_utils.py", line 443, in marshall_images
+    proto_img.url = image_to_url(
+                    ^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\jsw_web_app\jsw-analysis-web\venv\Lib\site-packages\streamlit\elements\lib\image_utils.py", line 338, in image_to_url
+    image_data = _ensure_image_size_and_format(image_data, layout_config, image_format)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\jsw_web_app\jsw-analysis-web\venv\Lib\site-packages\streamlit\elements\lib\image_utils.py", line 208, in _ensure_image_size_and_format
+    return _pil_to_bytes(pil_image, format=image_format, quality=90)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\jsw_web_app\jsw-analysis-web\venv\Lib\site-packages\streamlit\elements\lib\image_utils.py", line 136, in _pil_to_bytes
+    image.save(tmp, format=format, quality=quality)
+  File "C:\Users\User\Documents\jsw_web_app\jsw-analysis-web\venv\Lib\site-packages\PIL\Image.py", line 2713, in save
+    save_handler(self, fp, filename)
+  File "C:\Users\User\Documents\jsw_web_app\jsw-analysis-web\venv\Lib\site-packages\PIL\JpegImagePlugin.py", line 668, in _save
+    raise OSError(msg) from e
+OSError: cannot write mode I;16 as JPEG
+
+2026-05-30 19:22:27,029 | ERROR | Ошибка отображения исходного изображения: cannot write mode I;16 as JPEG
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\jsw_web_app\jsw-analysis-web\venv\Lib\site-packages\PIL\JpegImagePlugin.py", line 665, in _save
+    rawmode = RAWMODE[im.mode]
+              ~~~~~~~^^^^^^^^^
+KeyError: 'I;16'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\jsw_web_app\jsw-analysis-web\main.py", line 191, in <module>
+    st.image(current_file, use_container_width=True)
+  File "C:\Users\User\Documents\jsw_web_app\jsw-analysis-web\venv\Lib\site-packages\streamlit\runtime\metrics_util.py", line 698, in wrapped_func
+    result = non_optional_func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\jsw_web_app\jsw-analysis-web\venv\Lib\site-packages\streamlit\elements\image.py", line 217, in image
+    marshall_images(
+  File "C:\Users\User\Documents\jsw_web_app\jsw-analysis-web\venv\Lib\site-packages\streamlit\elements\lib\image_utils.py", line 443, in marshall_images
+    proto_img.url = image_to_url(
+                    ^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\jsw_web_app\jsw-analysis-web\venv\Lib\site-packages\streamlit\elements\lib\image_utils.py", line 338, in image_to_url
+    image_data = _ensure_image_size_and_format(image_data, layout_config, image_format)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\jsw_web_app\jsw-analysis-web\venv\Lib\site-packages\streamlit\elements\lib\image_utils.py", line 208, in _ensure_image_size_and_format
+    return _pil_to_bytes(pil_image, format=image_format, quality=90)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\jsw_web_app\jsw-analysis-web\venv\Lib\site-packages\streamlit\elements\lib\image_utils.py", line 136, in _pil_to_bytes
+    image.save(tmp, format=format, quality=quality)
+  File "C:\Users\User\Documents\jsw_web_app\jsw-analysis-web\venv\Lib\site-packages\PIL\Image.py", line 2713, in save
+    save_handler(self, fp, filename)
+  File "C:\Users\User\Documents\jsw_web_app\jsw-analysis-web\venv\Lib\site-packages\PIL\JpegImagePlugin.py", line 668, in _save
+    raise OSError(msg) from e
+OSError: cannot write mode I;16 as JPEG
+
